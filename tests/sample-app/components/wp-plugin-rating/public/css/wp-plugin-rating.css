@@ -1,0 +1,50 @@
+/**
+ * WP Plugin Rating · Show plugin rating in WordPress administration pages.
+ *
+ * @author    Josantonius <hello@josantonius.com>
+ * @package   eliasis-framework\wp-plugin-rating
+ * @copyright 2017 - 2018 (c) Josantonius - WP Plugin Rating
+ * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
+ * @link      https://github.com/eliasis-framework/wp-plugin-rating.git
+ * @since     1.0.0
+ */
+
+#jst-stars {
+  right: 0;
+  margin-right: 50px;
+  position: absolute;
+  margin-top: 26px;
+  width: 113px;
+  cursor: pointer;
+}
+
+#plugin-rating {
+  text-decoration: none;
+}
+
+#plugin-rating [class*=dashicons-star-] {
+  color: #ffb900;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating>span {
+  width: 14px;
+  padding: 0px 2px 0px 2px;
+}
+
+.rating>span:hover:before, .rating>span:hover~span:before {
+  cursor: pointer;
+  content: "";
+}
+
+@media (max-width: 504px) {
+  #jst-stars {
+    right: 0;
+    position: relative;
+    margin-top: 10px;
+  }
+}

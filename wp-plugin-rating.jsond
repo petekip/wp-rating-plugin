@@ -1,0 +1,43 @@
+{
+   "id": "WP_Plugin_Rating",
+   "name": "WP Plugin Rating",
+   "version": "1.0.1",
+   "description": {
+      "en": "Show plugin rating in WordPress administration pages for plugins developed with Eliasis Framework and Eliasis Complement.",
+      "es": "Mostrar la calificación del plugin en páginas de administración de WordPress para plugins desarrollados con Eliasis Framework y Eliasis Complement."
+   },
+   "state": "active",
+   "category": "eliasis-wp-component",
+   "url": "https://github.com/eliasis-framework/wp-plugin-rating.git",
+   "author": "Josantonius",
+   "author-url": "https://josantonius.com/",
+   "license": "MIT",
+   "hooks-controller": "Launcher",
+   "url-import": "https://raw.githubusercontent.com/eliasis-framework/wp-plugin-rating/master/",
+   "installation-files": {
+      "wp-plugin-rating": {
+         "0": "wp-plugin-rating.jsond",
+         "1": "LICENSE",
+         "2": "composer.json",
+         "config": [
+            "add-urls.php",
+            "assets",
+            "namespaces.php",
+            "paths",
+            "set-hooks",
+            "settings.php"
+         ],
+         "src": {
+            "controller": {
+               "0": "class-main.php"
+            },
+            "model": {
+               "0": "class-main.php"
+            },
+            "data": {
+               "0": "plugins.jsond"
+            }
+         }
+      }
+   }
+}

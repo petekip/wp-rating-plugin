@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/**
+ * WP Plugin Rating · Show plugin rating in WordPress administration pages.
+ *
+ * @author    Josantonius <hello@josantonius.com>
+ * @package   eliasis-framework\wp-plugin-rating
+ * @copyright 2017 - 2018 (c) Josantonius - WP Plugin Rating
+ * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
+ * @link      https://github.com/eliasis-framework/wp-plugin-rating.git
+ * @since     1.0.0
+ */
+#jst-stars {
+  right: 0;
+  margin-right: 50px;
+  position: absolute;
+  margin-top: 26px;
+  width: 113px;
+  cursor: pointer;
+}
+
+#plugin-rating {
+  text-decoration: none;
+}
+
+#plugin-rating [class*=dashicons-star-] {
+  color: #ffb900;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating > span {
+  width: 14px;
+  padding: 0px 2px 0px 2px;
+}
+
+.rating > span:hover:before, .rating > span:hover ~ span:before {
+  cursor: pointer;
+  content: "\f155";
+}
+
+@media (max-width: 504px) {
+  #jst-stars {
+    right: 0;
+    position: relative;
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoid3AtcGx1Z2luLXJhdGluZy5jc3MiLCJzb3VyY2VzIjpbIndwLXBsdWdpbi1yYXRpbmcuc2FzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUE7Ozs7Ozs7OztHQVNHO0FBQ0gsQUFBQSxVQUFVLENBQUM7RUFDVCxLQUFLLEVBQUUsQ0FBQztFQUNSLFlBQVksRUFBRSxJQUFJO0VBQ2xCLFFBQVEsRUFBRSxRQUFRO0VBQ2xCLFVBQVUsRUFBRSxJQUFJO0VBQ2hCLEtBQUssRUFBRSxLQUFLO0VBQ1osTUFBTSxFQUFFLE9BQU87Q0FBSTs7QUFFckIsQUFBQSxjQUFjLENBQUM7RUFDYixlQUFlLEVBQUUsSUFBSTtDQUVDOztBQUh4QixBQUVFLGNBRlksRUFFWixBQUFBLEtBQUMsRUFBRCxlQUFDLEFBQUEsRUFBd0I7RUFDdkIsS0FBSyxFQUFFLE9BQU87Q0FBSTs7QUFFdEIsQUFBQSxPQUFPLENBQUM7RUFDTixZQUFZLEVBQUUsYUFBYTtFQUMzQixTQUFTLEVBQUUsR0FBRztDQU9rQjs7QUFUbEMsQUFHSSxPQUhHLEdBR0gsSUFBSSxDQUFDO0VBQ0wsS0FBSyxFQUFFLElBQUk7RUFDWCxPQUFPLEVBQUUsZUFBZTtDQUlJOztBQVRoQyxBQUdJLE9BSEcsR0FHSCxJQUFJLEFBR0osTUFBTyxBQUNMLE9BQVEsRUFQZCxBQU9rQixPQVBYLEdBR0gsSUFBSSxBQUdKLE1BQU8sR0FDTyxJQUFJLEFBQUEsT0FBTyxDQUFDO0VBQ3RCLE1BQU0sRUFBRSxPQUFPO0VBQ2YsT0FBTyxFQUFFLE9BQU87Q0FBSTs7QUFFNUIsTUFBTSxFQUFFLFNBQVMsRUFBRSxLQUFLO0VBQ3RCLEFBQUEsVUFBVSxDQUFDO0lBQ1QsS0FBSyxFQUFFLENBQUM7SUFDUixRQUFRLEVBQUUsUUFBUTtJQUNsQixVQUFVLEVBQUUsSUFBSTtHQUFJIn0= */
+
+/*# sourceMappingURL=wp-plugin-rating.css.map */
