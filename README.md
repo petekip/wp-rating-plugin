@@ -2,7 +2,6 @@
 
 [![Latest Stable Version](https://poser.pugx.org/eliasis-framework/wp-plugin-rating/v/stable)](https://packagist.org/packages/eliasis-framework/wp-plugin-rating) [![Latest Unstable Version](https://poser.pugx.org/eliasis-framework/wp-plugin-rating/v/unstable)](https://packagist.org/packages/eliasis-framework/wp-plugin-rating) [![License](https://poser.pugx.org/eliasis-framework/wp-plugin-rating/license)](LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ae4f0c7f751a449eaa616be5e38a6c2c)](https://www.codacy.com/app/Josantonius/wp-plugin-rating?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=eliasis-framework/wp-plugin-rating&amp;utm_campaign=Badge_Grade) [![Total Downloads](https://poser.pugx.org/eliasis-framework/wp-plugin-rating/downloads)](https://packagist.org/packages/eliasis-framework/wp-plugin-rating) [![Travis](https://travis-ci.org/eliasis-framework/wp-plugin-rating.svg)](https://travis-ci.org/eliasis-framework/wp-plugin-rating) [![WP](https://img.shields.io/badge/WordPress-Standar-1abc9c.svg)](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/) [![CodeCov](https://codecov.io/gh/eliasis-framework/wp-plugin-rating/branch/master/graph/badge.svg)](https://codecov.io/gh/eliasis-framework/wp-plugin-rating)
 
-[Versión en español](README-ES.md)
 
 Show plugin rating in WordPress administration pages for plugins developed with Eliasis Framework.
 
