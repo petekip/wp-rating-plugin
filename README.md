@@ -122,24 +122,14 @@ Run all previous tests:
 If you would like to help, please take a look at the list of
 [issues](https://github.com/eliasis-framework/wp-plugin-rating/issues) or the [To Do](#-todo) checklist.
 
-**Pull requests**
 
-* [Fork and clone](https://help.github.com/articles/fork-a-repo).
-* Run the command `composer install` to install the dependencies.
-  This will also install the [dev dependencies](https://getcomposer.org/doc/03-cli.md#install).
-* Run the command `composer fix` to excute code standard fixers.
-* Run the [tests](#tests).
-* Create a **branch**, **commit**, **push** and send me a
-  [pull request](https://help.github.com/articles/using-pull-requests).
-
-## License
 
 This project is licensed under **MIT license**. See the [LICENSE](LICENSE) file for more info.
 
 ## Copyright
 
-2017 - 2018 Josantonius, [josantonius.com](https://josantonius.com/)
+2017 - 2018 Peter Koech, [kipkoech.com](https://kipkoech.com/)
 
 If you find it useful, let me know :wink:
 
-You can contact me on [Twitter](https://twitter.com/Josantonius) or through my [email](mailto:hello@josantonius.com).
+You can contact me on [email](mailto:peter.koech@gmail.com).
